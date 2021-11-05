@@ -1145,6 +1145,47 @@
                     <jcr:content jcr:primaryType="nt:unstructured"/>
                 </policy_1594238204926>
             </tabs>
+            <image-list jcr:primaryType="nt:unstructured">
+                <policy_1636117413582
+                    jcr:lastModified="{Date}2021-11-05T09:04:51.178-04:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="WKND Global ImageList"
+                    sling:resourceType="wcm/core/components/policy/policy"
+                    disableChildren="false"
+                    disableSearch="false"
+                    disableStatic="false"
+                    disableTags="false"
+                    linkItems="false"
+                    showDescription="false"
+                    showModificationDate="false">
+                    <jcr:content jcr:primaryType="nt:unstructured"/>
+                    <cq:styleGroups jcr:primaryType="nt:unstructured">
+                        <item0
+                            cq:styleGroupLabel="Styles"
+                            cq:styleGroupMultiple="true"
+                            jcr:primaryType="nt:unstructured">
+                            <cq:styles jcr:primaryType="nt:unstructured">
+                                <item0
+                                    cq:styleClasses="cmp-image-list--block"
+                                    cq:styleId="1636117423480"
+                                    cq:styleLabel="block"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <item1
+                                    cq:styleClasses="cmp-image-list--grid"
+                                    cq:styleId="1636117432163"
+                                    cq:styleLabel="grid"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <item2
+                                    cq:styleClasses="align-v-center"
+                                    cq:styleId="1636117440703"
+                                    cq:styleLabel="vertical center"
+                                    jcr:primaryType="nt:unstructured"/>
+                            </cq:styles>
+                        </item0>
+                    </cq:styleGroups>
+                </policy_1636117413582>
+            </image-list>
         </components>
     </wknd>
     <cq jcr:primaryType="nt:unstructured">

@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2020-07-09T08:11:32.084-07:00"
+        cq:lastModified="{Date}2021-11-05T11:21:38.186-04:00"
         cq:lastModifiedBy="admin"
         cq:lastReplicated="{Date}2019-10-22T13:34:50.533-07:00"
         cq:lastReplicatedBy="admin"
@@ -11,7 +11,7 @@
         jcr:isCheckedOut="{Boolean}true"
         jcr:mixinTypes="[cq:ReplicationStatus,mix:versionable]"
         jcr:primaryType="nt:unstructured"
-        jcr:uuid="2e788e65-0923-4b51-85f9-65a8c6c01a4f"
+        jcr:uuid="fae7f60e-f7ed-415e-9ed3-fd38eee307b5"
         sling:resourceType="wcm/core/components/policies/mappings">
         <root
             cq:policy="wknd/components/container/content-default"
@@ -81,6 +81,10 @@
                             sling:resourceType="wcm/core/components/policies/mapping"/>
                         <contentfragment
                             cq:policy="wknd/components/contentfragment/policy_1571166588834"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="wcm/core/components/policies/mapping"/>
+                        <image-list
+                            cq:policy="wknd/components/image-list/policy_1636117413582"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="wcm/core/components/policies/mapping"/>
                     </components>
