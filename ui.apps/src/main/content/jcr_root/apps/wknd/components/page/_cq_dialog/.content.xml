@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:granite="http://www.adobe.com/jcr/granite/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    sling:resourceType="cq/gui/components/authoring/dialog"
+    >
+    <content
+        granite:class="cq-dialog-content-page"
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="granite/ui/components/coral/foundation/container">
+        <items jcr:primaryType="nt:unstructured">
+            <tabs
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/coral/foundation/tabs">
+                <items jcr:primaryType="nt:unstructured">
+                    <basic
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns">
+                        <items jcr:primaryType="nt:unstructured">
+                            <column
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/container">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <icon
+                                        jcr:primaryType="nt:unstructured"
+                                        fieldLabel="Icon"
+                                        name="./icon"
+                                        sling:resourceType="granite/ui/components/coral/foundation/form/select">
+                                        <items jcr:primaryType="nt:unstructured">
+<none jcr:primaryType="nt:unstructured" text="- No icon -" value=""/>                                        
+<actual_size jcr:primaryType="nt:unstructured" text="Actual size" value="icon-actual_size"/>
+<add jcr:primaryType="nt:unstructured" text="Add" value="icon-add"/>
+<add_document jcr:primaryType="nt:unstructured" text="Add document" value="icon-add_document"/>
+<add_thin jcr:primaryType="nt:unstructured" text="Add thin" value="icon-add_thin"/>
+<admin jcr:primaryType="nt:unstructured" text="Admin" value="icon-admin"/>
+<annotations_arrow jcr:primaryType="nt:unstructured" text="Annotations arrow" value="icon-annotations_arrow"/>
+<annotations_arrow_with_handle jcr:primaryType="nt:unstructured" text="Annotations arrow with handle" value="icon-annotations_arrow_with_handle"/>
+<annotations_diagonal_line jcr:primaryType="nt:unstructured" text="Annotations diagonal line" value="icon-annotations_diagonal_line"/>
+<annotations_diagonal_line_with_handles jcr:primaryType="nt:unstructured" text="Annotations diagonal line with handles" value="icon-annotations_diagonal_line_with_handles"/>
+<annotations_oval_outline jcr:primaryType="nt:unstructured" text="Annotations oval outline" value="icon-annotations_oval_outline"/>
+<annotations_oval_outline_with_handles jcr:primaryType="nt:unstructured" text="Annotations oval outline with handles" value="icon-annotations_oval_outline_with_handles"/>
+<annotations_rectangle_outline jcr:primaryType="nt:unstructured" text="Annotations rectangle outline" value="icon-annotations_rectangle_outline"/>
+<annotations_rectangle_outline_with_handles jcr:primaryType="nt:unstructured" text="Annotations rectangle outline with handles" value="icon-annotations_rectangle_outline_with_handles"/>
+<annotations_templates jcr:primaryType="nt:unstructured" text="Annotations templates" value="icon-annotations_templates"/>
+<apple jcr:primaryType="nt:unstructured" text="Apple" value="icon-apple"/>
+<arrow_bottom jcr:primaryType="nt:unstructured" text="Arrow bottom" value="icon-arrow_bottom"/>
+<arrow_bottom_left jcr:primaryType="nt:unstructured" text="Arrow bottom left" value="icon-arrow_bottom_left"/>
+<arrow_bottom_right jcr:primaryType="nt:unstructured" text="Arrow bottom right" value="icon-arrow_bottom_right"/>
+<arrow_left jcr:primaryType="nt:unstructured" text="Arrow left" value="icon-arrow_left"/>
+<arrow_right jcr:primaryType="nt:unstructured" text="Arrow right" value="icon-arrow_right"/>
+<arrow_top jcr:primaryType="nt:unstructured" text="Arrow top" value="icon-arrow_top"/>
+<arrow_top_left jcr:primaryType="nt:unstructured" text="Arrow top left" value="icon-arrow_top_left"/>
+<arrow_top_right jcr:primaryType="nt:unstructured" text="Arrow top right" value="icon-arrow_top_right"/>
+<ascending jcr:primaryType="nt:unstructured" text="Ascending" value="icon-ascending"/>
+<back jcr:primaryType="nt:unstructured" text="Back" value="icon-back"/>
+<basket jcr:primaryType="nt:unstructured" text="Basket" value="icon-basket"/>
+<batch jcr:primaryType="nt:unstructured" text="Batch" value="icon-batch"/>
+<batch_image jcr:primaryType="nt:unstructured" text="Batch image" value="icon-batch_image"/>
+<best_fit jcr:primaryType="nt:unstructured" text="Best fit" value="icon-best_fit"/>
+<binoculars jcr:primaryType="nt:unstructured" text="Binoculars" value="icon-binoculars"/>
+<bookmark jcr:primaryType="nt:unstructured" text="Bookmark" value="icon-bookmark"/>
+<browse jcr:primaryType="nt:unstructured" text="Browse" value="icon-browse"/>
+<calendar jcr:primaryType="nt:unstructured" text="Calendar" value="icon-calendar"/>
+<calendar_with_clock jcr:primaryType="nt:unstructured" text="Calendar with clock" value="icon-calendar_with_clock"/>
+<camera jcr:primaryType="nt:unstructured" text="Camera" value="icon-camera"/>
+<camera_switch jcr:primaryType="nt:unstructured" text="Camera switch" value="icon-camera_switch"/>
+<cancel jcr:primaryType="nt:unstructured" text="Cancel" value="icon-cancel"/>
+<capture jcr:primaryType="nt:unstructured" text="Capture" value="icon-capture"/>
+<caret_bottom jcr:primaryType="nt:unstructured" text="Caret bottom" value="icon-caret_bottom"/>
+<caret_bottom_thin jcr:primaryType="nt:unstructured" text="Caret bottom thin" value="icon-caret_bottom_thin"/>
+<caret_circle_bottom jcr:primaryType="nt:unstructured" text="Caret circle bottom" value="icon-caret_circle_bottom"/>
+<caret_circle_left jcr:primaryType="nt:unstructured" text="Caret circle left" value="icon-caret_circle_left"/>
+<caret_circle_outline_bottom jcr:primaryType="nt:unstructured" text="Caret circle outline bottom" value="icon-caret_circle_outline_bottom"/>
+<caret_circle_outline_left jcr:primaryType="nt:unstructured" text="Caret circle outline left" value="icon-caret_circle_outline_left"/>
+<caret_circle_outline_right jcr:primaryType="nt:unstructured" text="Caret circle outline right" value="icon-caret_circle_outline_right"/>
+<caret_circle_outline_top jcr:primaryType="nt:unstructured" text="Caret circle outline top" value="icon-caret_circle_outline_top"/>
+<caret_circle_right jcr:primaryType="nt:unstructured" text="Caret circle right" value="icon-caret_circle_right"/>
+<caret_circle_top jcr:primaryType="nt:unstructured" text="Caret circle top" value="icon-caret_circle_top"/>
+<caret_left jcr:primaryType="nt:unstructured" text="Caret left" value="icon-caret_left"/>
+<caret_left_thin jcr:primaryType="nt:unstructured" text="Caret left thin" value="icon-caret_left_thin"/>
+<caret_right jcr:primaryType="nt:unstructured" text="Caret right" value="icon-caret_right"/>
+<caret_right_thin jcr:primaryType="nt:unstructured" text="Caret right thin" value="icon-caret_right_thin"/>
+<caret_top jcr:primaryType="nt:unstructured" text="Caret top" value="icon-caret_top"/>
+<caret_top_thin jcr:primaryType="nt:unstructured" text="Caret top thin" value="icon-caret_top_thin"/>
+<cart jcr:primaryType="nt:unstructured" text="Cart" value="icon-cart"/>
+<cart_express_checkout jcr:primaryType="nt:unstructured" text="Cart express checkout" value="icon-cart_express_checkout"/>
+<cartridge_inkjet jcr:primaryType="nt:unstructured" text="Cartridge inkjet" value="icon-cartridge_inkjet"/>
+<cartridge_laser jcr:primaryType="nt:unstructured" text="Cartridge laser" value="icon-cartridge_laser"/>
+<cartridge_linea jcr:primaryType="nt:unstructured" text="Cartridge linea" value="icon-cartridge_linea"/>
+<cartridge_ribbon jcr:primaryType="nt:unstructured" text="Cartridge ribbon" value="icon-cartridge_ribbon"/>
+<case_study jcr:primaryType="nt:unstructured" text="Case study" value="icon-case_study"/>
+<checklist_capture jcr:primaryType="nt:unstructured" text="Checklist capture" value="icon-checklist_capture"/>
+<checkmark jcr:primaryType="nt:unstructured" text="Checkmark" value="icon-checkmark"/>
+<circle jcr:primaryType="nt:unstructured" text="Circle" value="icon-circle"/>
+<circle_outline jcr:primaryType="nt:unstructured" text="Circle outline" value="icon-circle_outline"/>
+<clipboard jcr:primaryType="nt:unstructured" text="Clipboard" value="icon-clipboard"/>
+<clipboard_with_clock jcr:primaryType="nt:unstructured" text="Clipboard with clock" value="icon-clipboard_with_clock"/>
+<clock jcr:primaryType="nt:unstructured" text="Clock" value="icon-clock"/>
+<close jcr:primaryType="nt:unstructured" text="Close" value="icon-close"/>
+<cloud jcr:primaryType="nt:unstructured" text="Cloud" value="icon-cloud"/>
+<cloud_download jcr:primaryType="nt:unstructured" text="Cloud download" value="icon-cloud_download"/>
+<cloud_share jcr:primaryType="nt:unstructured" text="Cloud share" value="icon-cloud_share"/>
+<code jcr:primaryType="nt:unstructured" text="Code" value="icon-code"/>
+<collapse_all jcr:primaryType="nt:unstructured" text="Collapse all" value="icon-collapse_all"/>
+<contact jcr:primaryType="nt:unstructured" text="Contact" value="icon-contact"/>
+<contextual_menu jcr:primaryType="nt:unstructured" text="Contextual menu" value="icon-contextual_menu"/>
+<contextual_menu_arrow_bottom jcr:primaryType="nt:unstructured" text="Contextual menu arrow bottom" value="icon-contextual_menu_arrow_bottom"/>
+<control jcr:primaryType="nt:unstructured" text="Control" value="icon-control"/>
+<copy jcr:primaryType="nt:unstructured" text="Copy" value="icon-copy"/>
+<crop jcr:primaryType="nt:unstructured" text="Crop" value="icon-crop"/>
+<cut jcr:primaryType="nt:unstructured" text="Cut" value="icon-cut"/>
+<dashboard jcr:primaryType="nt:unstructured" text="Dashboard" value="icon-dashboard"/>
+<data_storage jcr:primaryType="nt:unstructured" text="Data storage" value="icon-data_storage"/>
+<delete jcr:primaryType="nt:unstructured" text="Delete" value="icon-delete"/>
+<descending jcr:primaryType="nt:unstructured" text="Descending" value="icon-descending"/>
+<deselect_all jcr:primaryType="nt:unstructured" text="Deselect all" value="icon-deselect_all"/>
+<desktop_monitor jcr:primaryType="nt:unstructured" text="Desktop monitor" value="icon-desktop_monitor"/>
+<device jcr:primaryType="nt:unstructured" text="Device" value="icon-device"/>
+<device_dot_matrix jcr:primaryType="nt:unstructured" text="Device dot matrix" value="icon-device_dot_matrix"/>
+<device_laser jcr:primaryType="nt:unstructured" text="Device laser" value="icon-device_laser"/>
+<diamond jcr:primaryType="nt:unstructured" text="Diamond" value="icon-diamond"/>
+<diamond_outline jcr:primaryType="nt:unstructured" text="Diamond outline" value="icon-diamond_outline"/>
+<dns_record jcr:primaryType="nt:unstructured" text="Dns record" value="icon-dns_record"/>
+<document jcr:primaryType="nt:unstructured" text="Document" value="icon-document"/>
+<document_composition jcr:primaryType="nt:unstructured" text="Document composition" value="icon-document_composition"/>
+<document_outline jcr:primaryType="nt:unstructured" text="Document outline" value="icon-document_outline"/>
+<document_shortcut jcr:primaryType="nt:unstructured" text="Document shortcut" value="icon-document_shortcut"/>
+<dots_horizontal jcr:primaryType="nt:unstructured" text="Dots horizontal" value="icon-dots_horizontal"/>
+<dots_triangle_left jcr:primaryType="nt:unstructured" text="Dots triangle left" value="icon-dots_triangle_left"/>
+<dots_vertical jcr:primaryType="nt:unstructured" text="Dots vertical" value="icon-dots_vertical"/>
+<double_caret_right jcr:primaryType="nt:unstructured" text="Double caret right" value="icon-double_caret_right"/>
+<download jcr:primaryType="nt:unstructured" text="Download" value="icon-download"/>
+<drawer jcr:primaryType="nt:unstructured" text="Drawer" value="icon-drawer"/>
+<eco_settings jcr:primaryType="nt:unstructured" text="Eco settings" value="icon-eco_settings"/>
+<edit jcr:primaryType="nt:unstructured" text="Edit" value="icon-edit"/>
+<embedded_apps jcr:primaryType="nt:unstructured" text="Embedded apps" value="icon-embedded_apps"/>
+<enter_full_screen jcr:primaryType="nt:unstructured" text="Enter full screen" value="icon-enter_full_screen"/>
+<envelope jcr:primaryType="nt:unstructured" text="Envelope" value="icon-envelope"/>
+<envelope_front jcr:primaryType="nt:unstructured" text="Envelope front" value="icon-envelope_front"/>
+<error jcr:primaryType="nt:unstructured" text="Error" value="icon-error"/>
+<exe jcr:primaryType="nt:unstructured" text="Exe" value="icon-exe"/>
+<exit_full_screen jcr:primaryType="nt:unstructured" text="Exit full screen" value="icon-exit_full_screen"/>
+<expand_all jcr:primaryType="nt:unstructured" text="Expand all" value="icon-expand_all"/>
+<expires jcr:primaryType="nt:unstructured" text="Expires" value="icon-expires"/>
+<export jcr:primaryType="nt:unstructured" text="Export" value="icon-export"/>
+<express_scanning_printing jcr:primaryType="nt:unstructured" text="Express scanning printing" value="icon-express_scanning_printing"/>
+<eye jcr:primaryType="nt:unstructured" text="Eye" value="icon-eye"/>
+<eye_strike_thru jcr:primaryType="nt:unstructured" text="Eye strike thru" value="icon-eye_strike_thru"/>
+<facebook jcr:primaryType="nt:unstructured" text="Facebook" value="icon-facebook"/>
+<fax jcr:primaryType="nt:unstructured" text="Fax" value="icon-fax"/>
+<field jcr:primaryType="nt:unstructured" text="Field" value="icon-field"/>
+<field_error jcr:primaryType="nt:unstructured" text="Field error" value="icon-field_error"/>
+<file_format jcr:primaryType="nt:unstructured" text="File format" value="icon-file_format"/>
+<filter jcr:primaryType="nt:unstructured" text="Filter" value="icon-filter"/>
+<fit_to_height jcr:primaryType="nt:unstructured" text="Fit to height" value="icon-fit_to_height"/>
+<fit_to_width jcr:primaryType="nt:unstructured" text="Fit to width" value="icon-fit_to_width"/>
+<flag jcr:primaryType="nt:unstructured" text="Flag" value="icon-flag"/>
+<flame jcr:primaryType="nt:unstructured" text="Flame" value="icon-flame"/>
+<flame_add jcr:primaryType="nt:unstructured" text="Flame add" value="icon-flame_add"/>
+<flash jcr:primaryType="nt:unstructured" text="Flash" value="icon-flash"/>
+<flash_automatic jcr:primaryType="nt:unstructured" text="Flash automatic" value="icon-flash_automatic"/>
+<flash_off jcr:primaryType="nt:unstructured" text="Flash off" value="icon-flash_off"/>
+<flow jcr:primaryType="nt:unstructured" text="Flow" value="icon-flow"/>
+<folder jcr:primaryType="nt:unstructured" text="Folder" value="icon-folder"/>
+<folder_shortcut jcr:primaryType="nt:unstructured" text="Folder shortcut" value="icon-folder_shortcut"/>
+<forms jcr:primaryType="nt:unstructured" text="Forms" value="icon-forms"/>
+<ftp jcr:primaryType="nt:unstructured" text="Ftp" value="icon-ftp"/>
+<gallery jcr:primaryType="nt:unstructured" text="Gallery" value="icon-gallery"/>
+<gear jcr:primaryType="nt:unstructured" text="Gear" value="icon-gear"/>
+<glasses jcr:primaryType="nt:unstructured" text="Glasses" value="icon-glasses"/>
+<global jcr:primaryType="nt:unstructured" text="Global" value="icon-global"/>
+<globe jcr:primaryType="nt:unstructured" text="Globe" value="icon-globe"/>
+<google_plus jcr:primaryType="nt:unstructured" text="Google plus" value="icon-google_plus"/>
+<hand jcr:primaryType="nt:unstructured" text="Hand" value="icon-hand"/>
+<help jcr:primaryType="nt:unstructured" text="Help" value="icon-help"/>
+<highlight jcr:primaryType="nt:unstructured" text="Highlight" value="icon-highlight"/>
+<history jcr:primaryType="nt:unstructured" text="History" value="icon-history"/>
+<home jcr:primaryType="nt:unstructured" text="Home" value="icon-home"/>
+<image jcr:primaryType="nt:unstructured" text="Image" value="icon-image"/>
+<image_resolution jcr:primaryType="nt:unstructured" text="Image resolution" value="icon-image_resolution"/>
+<import jcr:primaryType="nt:unstructured" text="Import" value="icon-import"/>
+<inbox jcr:primaryType="nt:unstructured" text="Inbox" value="icon-inbox"/>
+<input jcr:primaryType="nt:unstructured" text="Input" value="icon-input"/>
+<invoice jcr:primaryType="nt:unstructured" text="Invoice" value="icon-invoice"/>
+<invoice_approval jcr:primaryType="nt:unstructured" text="Invoice approval" value="icon-invoice_approval"/>
+<key jcr:primaryType="nt:unstructured" text="Key" value="icon-key"/>
+<laptop jcr:primaryType="nt:unstructured" text="Laptop" value="icon-laptop"/>
+<left_pane jcr:primaryType="nt:unstructured" text="Left pane" value="icon-left_pane"/>
+<library jcr:primaryType="nt:unstructured" text="Library" value="icon-library"/>
+<line_error jcr:primaryType="nt:unstructured" text="Line error" value="icon-line_error"/>
+<link jcr:primaryType="nt:unstructured" text="Link" value="icon-link"/>
+<linkedin jcr:primaryType="nt:unstructured" text="Linkedin" value="icon-linkedin"/>
+<list jcr:primaryType="nt:unstructured" text="List" value="icon-list"/>
+<location jcr:primaryType="nt:unstructured" text="Location" value="icon-location"/>
+<lock jcr:primaryType="nt:unstructured" text="Lock" value="icon-lock"/>
+<lock_with_pin jcr:primaryType="nt:unstructured" text="Lock with pin" value="icon-lock_with_pin"/>
+<log_off jcr:primaryType="nt:unstructured" text="Log off" value="icon-log_off"/>
+<map jcr:primaryType="nt:unstructured" text="Map" value="icon-map"/>
+<medal jcr:primaryType="nt:unstructured" text="Medal" value="icon-medal"/>
+<memory jcr:primaryType="nt:unstructured" text="Memory" value="icon-memory"/>
+<message_bubble jcr:primaryType="nt:unstructured" text="Message bubble" value="icon-message_bubble"/>
+<mfp_option jcr:primaryType="nt:unstructured" text="Mfp option" value="icon-mfp_option"/>
+<mobile jcr:primaryType="nt:unstructured" text="Mobile" value="icon-mobile"/>
+<monitor jcr:primaryType="nt:unstructured" text="Monitor" value="icon-monitor"/>
+<move jcr:primaryType="nt:unstructured" text="Move" value="icon-move"/>
+<multiple_annotations jcr:primaryType="nt:unstructured" text="Multiple annotations" value="icon-multiple_annotations"/>
+<navigate_up jcr:primaryType="nt:unstructured" text="Navigate up" value="icon-navigate_up"/>
+<network jcr:primaryType="nt:unstructured" text="Network" value="icon-network"/>
+<not_allowed jcr:primaryType="nt:unstructured" text="Not allowed" value="icon-not_allowed"/>
+<notify_alert jcr:primaryType="nt:unstructured" text="Notify alert" value="icon-notify_alert"/>
+<numbers jcr:primaryType="nt:unstructured" text="Numbers" value="icon-numbers"/>
+<open_id jcr:primaryType="nt:unstructured" text="Open id" value="icon-open_id"/>
+<orders jcr:primaryType="nt:unstructured" text="Orders" value="icon-orders"/>
+<paper_tray jcr:primaryType="nt:unstructured" text="Paper tray" value="icon-paper_tray"/>
+<parts_general jcr:primaryType="nt:unstructured" text="Parts general" value="icon-parts_general"/>
+<paste jcr:primaryType="nt:unstructured" text="Paste" value="icon-paste"/>
+<pause jcr:primaryType="nt:unstructured" text="Pause" value="icon-pause"/>
+<pdf_document jcr:primaryType="nt:unstructured" text="PDF document" value="icon-pdf_document"/>
+<pdf_secure_document jcr:primaryType="nt:unstructured" text="PDF secure document" value="icon-pdf_secure_document"/>
+<pen jcr:primaryType="nt:unstructured" text="Pen" value="icon-pen"/>
+<pencil_strike_thru jcr:primaryType="nt:unstructured" text="Pencil strike thru" value="icon-pencil_strike_thru"/>
+<people jcr:primaryType="nt:unstructured" text="People" value="icon-people"/>
+<pin jcr:primaryType="nt:unstructured" text="Pin" value="icon-pin"/>
+<play jcr:primaryType="nt:unstructured" text="Play" value="icon-play"/>
+<presentation jcr:primaryType="nt:unstructured" text="Presentation" value="icon-presentation"/>
+<previous jcr:primaryType="nt:unstructured" text="Previous" value="icon-previous"/>
+<print jcr:primaryType="nt:unstructured" text="Print" value="icon-print"/>
+<print_binding jcr:primaryType="nt:unstructured" text="Print binding" value="icon-print_binding"/>
+<print_binding_off jcr:primaryType="nt:unstructured" text="Print binding off" value="icon-print_binding_off"/>
+<print_duplex jcr:primaryType="nt:unstructured" text="Print duplex" value="icon-print_duplex"/>
+<print_duplex_binding jcr:primaryType="nt:unstructured" text="Print duplex binding" value="icon-print_duplex_binding"/>
+<print_hole_punch jcr:primaryType="nt:unstructured" text="Print hole punch" value="icon-print_hole_punch"/>
+<print_hole_punch_plus_stapler jcr:primaryType="nt:unstructured" text="Print hole punch plus stapler" value="icon-print_hole_punch_plus_stapler"/>
+<print_one_staple jcr:primaryType="nt:unstructured" text="Print one staple" value="icon-print_one_staple"/>
+<print_orientation_landscape jcr:primaryType="nt:unstructured" text="Print orientation landscape" value="icon-print_orientation_landscape"/>
+<print_orientation_portrait jcr:primaryType="nt:unstructured" text="Print orientation portrait" value="icon-print_orientation_portrait"/>
+<print_two_staples jcr:primaryType="nt:unstructured" text="Print two staples" value="icon-print_two_staples"/>
+<private_gallery jcr:primaryType="nt:unstructured" text="Private gallery" value="icon-private_gallery"/>
+<process_designer jcr:primaryType="nt:unstructured" text="Process designer" value="icon-process_designer"/>
+<project jcr:primaryType="nt:unstructured" text="Project" value="icon-project"/>
+<properties jcr:primaryType="nt:unstructured" text="Properties" value="icon-properties"/>
+<qr_code jcr:primaryType="nt:unstructured" text="QR code" value="icon-qr_code"/>
+<recent_activity jcr:primaryType="nt:unstructured" text="Recent activity" value="icon-recent_activity"/>
+<redo jcr:primaryType="nt:unstructured" text="Redo" value="icon-redo"/>
+<refresh jcr:primaryType="nt:unstructured" text="Refresh" value="icon-refresh"/>
+<reminder jcr:primaryType="nt:unstructured" text="Reminder" value="icon-reminder"/>
+<remove jcr:primaryType="nt:unstructured" text="Remove" value="icon-remove"/>
+<remove_thin jcr:primaryType="nt:unstructured" text="Remove thin" value="icon-remove_thin"/>
+<report jcr:primaryType="nt:unstructured" text="Report" value="icon-report"/>
+<requests jcr:primaryType="nt:unstructured" text="Requests" value="icon-requests"/>
+<restart jcr:primaryType="nt:unstructured" text="Restart" value="icon-restart"/>
+<restore jcr:primaryType="nt:unstructured" text="Restore" value="icon-restore"/>
+<ribbon jcr:primaryType="nt:unstructured" text="Ribbon" value="icon-ribbon"/>
+<right_pane jcr:primaryType="nt:unstructured" text="Right pane" value="icon-right_pane"/>
+<rotate_left jcr:primaryType="nt:unstructured" text="Rotate left" value="icon-rotate_left"/>
+<rotate_right jcr:primaryType="nt:unstructured" text="Rotate right" value="icon-rotate_right"/>
+<round_rectangle jcr:primaryType="nt:unstructured" text="Round rectangle" value="icon-round_rectangle"/>
+<round_rectangle_outline jcr:primaryType="nt:unstructured" text="Round rectangle outline" value="icon-round_rectangle_outline"/>
+<route_anywhere jcr:primaryType="nt:unstructured" text="Route anywhere" value="icon-route_anywhere"/>
+<route_back jcr:primaryType="nt:unstructured" text="Route back" value="icon-route_back"/>
+<route_forward jcr:primaryType="nt:unstructured" text="Route forward" value="icon-route_forward"/>
+<route_up jcr:primaryType="nt:unstructured" text="Route up" value="icon-route_up"/>
+<save jcr:primaryType="nt:unstructured" text="Save" value="icon-save"/>
+<scan jcr:primaryType="nt:unstructured" text="Scan" value="icon-scan"/>
+<search jcr:primaryType="nt:unstructured" text="Search" value="icon-search"/>
+<secure_document jcr:primaryType="nt:unstructured" text="Secure document" value="icon-secure_document"/>
+<select jcr:primaryType="nt:unstructured" text="Select" value="icon-select"/>
+<select_all jcr:primaryType="nt:unstructured" text="Select all" value="icon-select_all"/>
+<select_all_annotations jcr:primaryType="nt:unstructured" text="Select all annotations" value="icon-select_all_annotations"/>
+<select_column jcr:primaryType="nt:unstructured" text="Select column" value="icon-select_column"/>
+<send_to jcr:primaryType="nt:unstructured" text="Send to" value="icon-send_to"/>
+<share jcr:primaryType="nt:unstructured" text="Share" value="icon-share"/>
+<shield jcr:primaryType="nt:unstructured" text="Shield" value="icon-shield"/>
+<shield_with_lock jcr:primaryType="nt:unstructured" text="Shield with lock" value="icon-shield_with_lock"/>
+<single_annotation jcr:primaryType="nt:unstructured" text="Single annotation" value="icon-single_annotation"/>
+<soco_process jcr:primaryType="nt:unstructured" text="Soco process" value="icon-soco_process"/>
+<soco_process_model jcr:primaryType="nt:unstructured" text="Soco process model" value="icon-soco_process_model"/>
+<software jcr:primaryType="nt:unstructured" text="Software" value="icon-software"/>
+<solutions_app jcr:primaryType="nt:unstructured" text="Solutions app" value="icon-solutions_app"/>
+<solutions_smart jcr:primaryType="nt:unstructured" text="Solutions smart" value="icon-solutions_smart"/>
+<sound jcr:primaryType="nt:unstructured" text="Sound" value="icon-sound"/>
+<split_screen_horizontal jcr:primaryType="nt:unstructured" text="Split screen horizontal" value="icon-split_screen_horizontal"/>
+<split_screen_vertical jcr:primaryType="nt:unstructured" text="Split screen vertical" value="icon-split_screen_vertical"/>
+<spreadsheet jcr:primaryType="nt:unstructured" text="Spreadsheet" value="icon-spreadsheet"/>
+<stamp jcr:primaryType="nt:unstructured" text="Stamp" value="icon-stamp"/>
+<star jcr:primaryType="nt:unstructured" text="Star" value="icon-star"/>
+<sticky_note jcr:primaryType="nt:unstructured" text="Sticky note" value="icon-sticky_note"/>
+<sticky_note_outline jcr:primaryType="nt:unstructured" text="Sticky note outline" value="icon-sticky_note_outline"/>
+<stop jcr:primaryType="nt:unstructured" text="Stop" value="icon-stop"/>
+<strategic jcr:primaryType="nt:unstructured" text="Strategic" value="icon-strategic"/>
+<sync jcr:primaryType="nt:unstructured" text="Sync" value="icon-sync"/>
+<tags jcr:primaryType="nt:unstructured" text="Tags" value="icon-tags"/>
+<telekom jcr:primaryType="nt:unstructured" text="Telekom" value="icon-telekom"/>
+<text jcr:primaryType="nt:unstructured" text="Text" value="icon-text"/>
+<text_document jcr:primaryType="nt:unstructured" text="Text document" value="icon-text_document"/>
+<thumbnails jcr:primaryType="nt:unstructured" text="Thumbnails" value="icon-thumbnails"/>
+<thumbs_down jcr:primaryType="nt:unstructured" text="Thumbs down" value="icon-thumbs_down"/>
+<thumbs_down_outline jcr:primaryType="nt:unstructured" text="Thumbs down outline" value="icon-thumbs_down_outline"/>
+<thumbs_up jcr:primaryType="nt:unstructured" text="Thumbs up" value="icon-thumbs_up"/>
+<thumbs_up_outline jcr:primaryType="nt:unstructured" text="Thumbs up outline" value="icon-thumbs_up_outline"/>
+<touchscreen jcr:primaryType="nt:unstructured" text="Touchscreen" value="icon-touchscreen"/>
+<triangle_bottom jcr:primaryType="nt:unstructured" text="Triangle bottom" value="icon-triangle_bottom"/>
+<triangle_bottom_left jcr:primaryType="nt:unstructured" text="Triangle bottom left" value="icon-triangle_bottom_left"/>
+<triangle_bottom_right jcr:primaryType="nt:unstructured" text="Triangle bottom right" value="icon-triangle_bottom_right"/>
+<triangle_left jcr:primaryType="nt:unstructured" text="Triangle left" value="icon-triangle_left"/>
+<triangle_outline_bottom jcr:primaryType="nt:unstructured" text="Triangle outline bottom" value="icon-triangle_outline_bottom"/>
+<triangle_outline_bottom_left jcr:primaryType="nt:unstructured" text="Triangle outline bottom left" value="icon-triangle_outline_bottom_left"/>
+<triangle_outline_bottom_right jcr:primaryType="nt:unstructured" text="Triangle outline bottom right" value="icon-triangle_outline_bottom_right"/>
+<triangle_outline_left jcr:primaryType="nt:unstructured" text="Triangle outline left" value="icon-triangle_outline_left"/>
+<triangle_outline_right jcr:primaryType="nt:unstructured" text="Triangle outline right" value="icon-triangle_outline_right"/>
+<triangle_outline_top jcr:primaryType="nt:unstructured" text="Triangle outline top" value="icon-triangle_outline_top"/>
+<triangle_outline_top_left jcr:primaryType="nt:unstructured" text="Triangle outline top left" value="icon-triangle_outline_top_left"/>
+<triangle_outline_top_right jcr:primaryType="nt:unstructured" text="Triangle outline top right" value="icon-triangle_outline_top_right"/>
+<triangle_right jcr:primaryType="nt:unstructured" text="Triangle right" value="icon-triangle_right"/>
+<triangle_top jcr:primaryType="nt:unstructured" text="Triangle top" value="icon-triangle_top"/>
+<triangle_top_left jcr:primaryType="nt:unstructured" text="Triangle top left" value="icon-triangle_top_left"/>
+<triangle_top_right jcr:primaryType="nt:unstructured" text="Triangle top right" value="icon-triangle_top_right"/>
+<triangle_with_line_bottom jcr:primaryType="nt:unstructured" text="Triangle with line bottom" value="icon-triangle_with_line_bottom"/>
+<triangle_with_line_left jcr:primaryType="nt:unstructured" text="Triangle with line left" value="icon-triangle_with_line_left"/>
+<triangle_with_line_right jcr:primaryType="nt:unstructured" text="Triangle with line right" value="icon-triangle_with_line_right"/>
+<triangle_with_line_top jcr:primaryType="nt:unstructured" text="Triangle with line top" value="icon-triangle_with_line_top"/>
+<twitter jcr:primaryType="nt:unstructured" text="Twitter" value="icon-twitter"/>
+<undo jcr:primaryType="nt:unstructured" text="Undo" value="icon-undo"/>
+<unknown_document jcr:primaryType="nt:unstructured" text="Unknown document" value="icon-unknown_document"/>
+<unlink jcr:primaryType="nt:unstructured" text="Unlink" value="icon-unlink"/>
+<unlock jcr:primaryType="nt:unstructured" text="Unlock" value="icon-unlock"/>
+<upload jcr:primaryType="nt:unstructured" text="Upload" value="icon-upload"/>
+<usb_flash_drive jcr:primaryType="nt:unstructured" text="Usb flash drive" value="icon-usb_flash_drive"/>
+<user jcr:primaryType="nt:unstructured" text="User" value="icon-user"/>
+<valid jcr:primaryType="nt:unstructured" text="Valid" value="icon-valid"/>
+<verified_document jcr:primaryType="nt:unstructured" text="Verified document" value="icon-verified_document"/>
+<video jcr:primaryType="nt:unstructured" text="Video" value="icon-video"/>
+<video_camera jcr:primaryType="nt:unstructured" text="Video camera" value="icon-video_camera"/>
+<views jcr:primaryType="nt:unstructured" text="Views" value="icon-views"/>
+<warning jcr:primaryType="nt:unstructured" text="Warning" value="icon-warning"/>
+<web_cam jcr:primaryType="nt:unstructured" text="Web cam" value="icon-web_cam"/>
+<wifi jcr:primaryType="nt:unstructured" text="Wifi" value="icon-wifi"/>
+<windows jcr:primaryType="nt:unstructured" text="Windows" value="icon-windows"/>
+<zip jcr:primaryType="nt:unstructured" text="Zip" value="icon-zip"/>
+<zoom_in jcr:primaryType="nt:unstructured" text="Zoom in" value="icon-zoom_in"/>
+<zoom_out jcr:primaryType="nt:unstructured" text="Zoom out" value="icon-zoom_out"/>
+                                        </items>
+                                    </icon>
+                                </items>
+                            </column>
+                        </items>
+                    </basic>
+                </items>
+            </tabs>
+        </items>
+    </content>
+</jcr:root>

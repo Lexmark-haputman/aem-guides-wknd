@@ -184,6 +184,11 @@ public class ImageListImpl implements ImageList {
             return wrappedListItem.getURL();
         }
 
+        @Override
+        public String getIcon() {
+            return this.page.getProperties().get("icon", "");
+        }
+
         public boolean isEmpty() {
             return getImage() == null;
         }

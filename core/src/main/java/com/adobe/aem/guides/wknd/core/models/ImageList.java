@@ -64,6 +64,11 @@ public interface ImageList {
          */
         String getURL();
 
+        /**
+         * @return the icon property of page.
+         */
+        String getIcon();
+
         @JsonProperty("dataLayer")
         default ComponentData getData() {
             return null;
